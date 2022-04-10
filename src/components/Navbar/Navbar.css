@@ -1,0 +1,32 @@
+.navbar {
+    background: #46546e;
+    padding: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  .navbar nav {
+    display: flex; /* links next to each other */
+    align-items: center;
+    max-width: 1200px;
+  }
+  .navbar a.brand {
+    margin-right: auto; /* move to the right */
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none; /* no underline */
+  }
+  
+  .navbar .nav-items {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 8px;
+    padding-top: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .navbar .nav-items:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+  }

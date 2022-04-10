@@ -1,0 +1,15 @@
+/* center profile info */
+.profile {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* center add post button and add spacing below button */
+.add-button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
